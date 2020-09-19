@@ -14,9 +14,11 @@
 		495C5D0E2515BC4500AEE577 /* Day_Care.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */; };
 		495C5D102515BC4800AEE577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D0F2515BC4800AEE577 /* Assets.xcassets */; };
 		495C5D132515BC4800AEE577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */; };
+		A908D0ABA6F31E707CF6908C /* Pods_Day_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBC612E9E82CAC70FD46F9 /* Pods_Day_Care.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030F67C57F8385A4F5F1A678 /* Pods-Day Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day Care.debug.xcconfig"; path = "Target Support Files/Pods-Day Care/Pods-Day Care.debug.xcconfig"; sourceTree = "<group>"; };
 		495C5D002515BC4500AEE577 /* Day Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495C5D032515BC4500AEE577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495C5D052515BC4500AEE577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		495C5D0F2515BC4800AEE577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495C5D122515BC4800AEE577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495C5D142515BC4800AEE577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963733391DEAD65FCD76FA42 /* Pods-Day Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day Care.release.xcconfig"; path = "Target Support Files/Pods-Day Care/Pods-Day Care.release.xcconfig"; sourceTree = "<group>"; };
+		C7EBC612E9E82CAC70FD46F9 /* Pods_Day_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A908D0ABA6F31E707CF6908C /* Pods_Day_Care.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				495C5D022515BC4500AEE577 /* Day Care */,
 				495C5D012515BC4500AEE577 /* Products */,
+				87466FA90BF7C523DAE8C854 /* Pods */,
+				CEB0C4E584A7234B9F2A3272 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = "Day Care";
 			sourceTree = "<group>";
 		};
+		87466FA90BF7C523DAE8C854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				030F67C57F8385A4F5F1A678 /* Pods-Day Care.debug.xcconfig */,
+				963733391DEAD65FCD76FA42 /* Pods-Day Care.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEB0C4E584A7234B9F2A3272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EBC612E9E82CAC70FD46F9 /* Pods_Day_Care.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 495C5D172515BC4800AEE577 /* Build configuration list for PBXNativeTarget "Day Care" */;
 			buildPhases = (
+				D29FFE8207BB3F4C89923342 /* [CP] Check Pods Manifest.lock */,
 				495C5CFC2515BC4500AEE577 /* Sources */,
 				495C5CFD2515BC4500AEE577 /* Frameworks */,
 				495C5CFE2515BC4500AEE577 /* Resources */,
+				533F2C52F743E1ED9169A8EA /* [CP] Embed Pods Frameworks */,
+				9856A17DD402BAC877EE704C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +162,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		533F2C52F743E1ED9169A8EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9856A17DD402BAC877EE704C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Day Care/Pods-Day Care-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29FFE8207BB3F4C89923342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day Care-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		495C5CFC2515BC4500AEE577 /* Sources */ = {
@@ -287,12 +374,14 @@
 		};
 		495C5D182515BC4800AEE577 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030F67C57F8385A4F5F1A678 /* Pods-Day Care.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCS8D5TFR8;
 				INFOPLIST_FILE = "Day Care/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +395,14 @@
 		};
 		495C5D192515BC4800AEE577 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963733391DEAD65FCD76FA42 /* Pods-Day Care.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SCS8D5TFR8;
 				INFOPLIST_FILE = "Day Care/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
