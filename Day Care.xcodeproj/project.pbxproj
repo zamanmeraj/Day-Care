@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495C5D042515BC4500AEE577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D032515BC4500AEE577 /* AppDelegate.swift */; };
+		495C5D062515BC4500AEE577 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D052515BC4500AEE577 /* SceneDelegate.swift */; };
+		495C5D082515BC4500AEE577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D072515BC4500AEE577 /* ViewController.swift */; };
+		495C5D0B2515BC4500AEE577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D092515BC4500AEE577 /* Main.storyboard */; };
+		495C5D0E2515BC4500AEE577 /* Day_Care.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */; };
+		495C5D102515BC4800AEE577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D0F2515BC4800AEE577 /* Assets.xcassets */; };
+		495C5D132515BC4800AEE577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495C5D002515BC4500AEE577 /* Day Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495C5D032515BC4500AEE577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		495C5D052515BC4500AEE577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		495C5D072515BC4500AEE577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495C5D0A2515BC4500AEE577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		495C5D0D2515BC4500AEE577 /* Day_Care.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day_Care.xcdatamodel; sourceTree = "<group>"; };
+		495C5D0F2515BC4800AEE577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		495C5D122515BC4800AEE577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		495C5D142515BC4800AEE577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495C5CFD2515BC4500AEE577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495C5CF72515BC4500AEE577 = {
+			isa = PBXGroup;
+			children = (
+				495C5D022515BC4500AEE577 /* Day Care */,
+				495C5D012515BC4500AEE577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495C5D012515BC4500AEE577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495C5D002515BC4500AEE577 /* Day Care.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495C5D022515BC4500AEE577 /* Day Care */ = {
+			isa = PBXGroup;
+			children = (
+				495C5D032515BC4500AEE577 /* AppDelegate.swift */,
+				495C5D052515BC4500AEE577 /* SceneDelegate.swift */,
+				495C5D072515BC4500AEE577 /* ViewController.swift */,
+				495C5D092515BC4500AEE577 /* Main.storyboard */,
+				495C5D0F2515BC4800AEE577 /* Assets.xcassets */,
+				495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */,
+				495C5D142515BC4800AEE577 /* Info.plist */,
+				495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */,
+			);
+			path = "Day Care";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495C5CFF2515BC4500AEE577 /* Day Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495C5D172515BC4800AEE577 /* Build configuration list for PBXNativeTarget "Day Care" */;
+			buildPhases = (
+				495C5CFC2515BC4500AEE577 /* Sources */,
+				495C5CFD2515BC4500AEE577 /* Frameworks */,
+				495C5CFE2515BC4500AEE577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day Care";
+			productName = "Day Care";
+			productReference = 495C5D002515BC4500AEE577 /* Day Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495C5CF82515BC4500AEE577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					495C5CFF2515BC4500AEE577 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 495C5CFB2515BC4500AEE577 /* Build configuration list for PBXProject "Day Care" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495C5CF72515BC4500AEE577;
+			productRefGroup = 495C5D012515BC4500AEE577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495C5CFF2515BC4500AEE577 /* Day Care */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495C5CFE2515BC4500AEE577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495C5D132515BC4800AEE577 /* LaunchScreen.storyboard in Resources */,
+				495C5D102515BC4800AEE577 /* Assets.xcassets in Resources */,
+				495C5D0B2515BC4500AEE577 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495C5CFC2515BC4500AEE577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495C5D082515BC4500AEE577 /* ViewController.swift in Sources */,
+				495C5D0E2515BC4500AEE577 /* Day_Care.xcdatamodeld in Sources */,
+				495C5D042515BC4500AEE577 /* AppDelegate.swift in Sources */,
+				495C5D062515BC4500AEE577 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		495C5D092515BC4500AEE577 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495C5D0A2515BC4500AEE577 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495C5D122515BC4800AEE577 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495C5D152515BC4800AEE577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		495C5D162515BC4800AEE577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495C5D182515BC4800AEE577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCS8D5TFR8;
+				INFOPLIST_FILE = "Day Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmenterprises.Daycare.Day-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		495C5D192515BC4800AEE577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCS8D5TFR8;
+				INFOPLIST_FILE = "Day Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zmenterprises.Daycare.Day-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495C5CFB2515BC4500AEE577 /* Build configuration list for PBXProject "Day Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495C5D152515BC4800AEE577 /* Debug */,
+				495C5D162515BC4800AEE577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495C5D172515BC4800AEE577 /* Build configuration list for PBXNativeTarget "Day Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495C5D182515BC4800AEE577 /* Debug */,
+				495C5D192515BC4800AEE577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				495C5D0D2515BC4500AEE577 /* Day_Care.xcdatamodel */,
+			);
+			currentVersion = 495C5D0D2515BC4500AEE577 /* Day_Care.xcdatamodel */;
+			path = Day_Care.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 495C5CF82515BC4500AEE577 /* Project object */;
+}
