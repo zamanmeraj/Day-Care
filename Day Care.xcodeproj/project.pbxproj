@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		495C5D042515BC4500AEE577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D032515BC4500AEE577 /* AppDelegate.swift */; };
 		495C5D062515BC4500AEE577 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D052515BC4500AEE577 /* SceneDelegate.swift */; };
-		495C5D082515BC4500AEE577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D072515BC4500AEE577 /* ViewController.swift */; };
+		495C5D082515BC4500AEE577 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D072515BC4500AEE577 /* IntroVC.swift */; };
 		495C5D0B2515BC4500AEE577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D092515BC4500AEE577 /* Main.storyboard */; };
 		495C5D0E2515BC4500AEE577 /* Day_Care.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */; };
 		495C5D102515BC4800AEE577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D0F2515BC4800AEE577 /* Assets.xcassets */; };
 		495C5D132515BC4800AEE577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */; };
+		496F0C972515F2B600E3DAD9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496F0C962515F2B600E3DAD9 /* User.swift */; };
+		49B43DB6251F41E0009B0F78 /* LoginWithEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B43DB5251F41E0009B0F78 /* LoginWithEmailVC.swift */; };
+		49B43DBA251F4B08009B0F78 /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B43DB9251F4B08009B0F78 /* ExtensionFile.swift */; };
+		49B43DBE251F56CA009B0F78 /* RoleOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B43DBD251F56CA009B0F78 /* RoleOptionVC.swift */; };
+		49B72A1A251F2BE000A356D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B72A19251F2BE000A356D4 /* GoogleService-Info.plist */; };
 		A908D0ABA6F31E707CF6908C /* Pods_Day_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBC612E9E82CAC70FD46F9 /* Pods_Day_Care.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +27,17 @@
 		495C5D002515BC4500AEE577 /* Day Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495C5D032515BC4500AEE577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495C5D052515BC4500AEE577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		495C5D072515BC4500AEE577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		495C5D072515BC4500AEE577 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		495C5D0A2515BC4500AEE577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		495C5D0D2515BC4500AEE577 /* Day_Care.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Day_Care.xcdatamodel; sourceTree = "<group>"; };
 		495C5D0F2515BC4800AEE577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495C5D122515BC4800AEE577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495C5D142515BC4800AEE577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496F0C962515F2B600E3DAD9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		49B43DB5251F41E0009B0F78 /* LoginWithEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithEmailVC.swift; sourceTree = "<group>"; };
+		49B43DB9251F4B08009B0F78 /* ExtensionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
+		49B43DBD251F56CA009B0F78 /* RoleOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleOptionVC.swift; sourceTree = "<group>"; };
+		49B72A19251F2BE000A356D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		963733391DEAD65FCD76FA42 /* Pods-Day Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day Care.release.xcconfig"; path = "Target Support Files/Pods-Day Care/Pods-Day Care.release.xcconfig"; sourceTree = "<group>"; };
 		C7EBC612E9E82CAC70FD46F9 /* Pods_Day_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Day_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,16 +75,61 @@
 		495C5D022515BC4500AEE577 /* Day Care */ = {
 			isa = PBXGroup;
 			children = (
-				495C5D032515BC4500AEE577 /* AppDelegate.swift */,
-				495C5D052515BC4500AEE577 /* SceneDelegate.swift */,
-				495C5D072515BC4500AEE577 /* ViewController.swift */,
-				495C5D092515BC4500AEE577 /* Main.storyboard */,
+				49B43DB8251F4AD4009B0F78 /* Extension */,
+				496F0C952515E55000E3DAD9 /* Storyboard */,
+				496F0C942515E53900E3DAD9 /* Controller */,
+				496F0C932515E53300E3DAD9 /* Modal */,
+				496F0C922515E52800E3DAD9 /* Delegate */,
 				495C5D0F2515BC4800AEE577 /* Assets.xcassets */,
-				495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */,
 				495C5D142515BC4800AEE577 /* Info.plist */,
+				49B72A19251F2BE000A356D4 /* GoogleService-Info.plist */,
 				495C5D0C2515BC4500AEE577 /* Day_Care.xcdatamodeld */,
 			);
 			path = "Day Care";
+			sourceTree = "<group>";
+		};
+		496F0C922515E52800E3DAD9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				495C5D032515BC4500AEE577 /* AppDelegate.swift */,
+				495C5D052515BC4500AEE577 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		496F0C932515E53300E3DAD9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				496F0C962515F2B600E3DAD9 /* User.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		496F0C942515E53900E3DAD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				495C5D072515BC4500AEE577 /* IntroVC.swift */,
+				49B43DB5251F41E0009B0F78 /* LoginWithEmailVC.swift */,
+				49B43DBD251F56CA009B0F78 /* RoleOptionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		496F0C952515E55000E3DAD9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				495C5D112515BC4800AEE577 /* LaunchScreen.storyboard */,
+				495C5D092515BC4500AEE577 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		49B43DB8251F4AD4009B0F78 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				49B43DB9251F4B08009B0F78 /* ExtensionFile.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		87466FA90BF7C523DAE8C854 /* Pods */ = {
@@ -83,7 +138,6 @@
 				030F67C57F8385A4F5F1A678 /* Pods-Day Care.debug.xcconfig */,
 				963733391DEAD65FCD76FA42 /* Pods-Day Care.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +212,7 @@
 				495C5D132515BC4800AEE577 /* LaunchScreen.storyboard in Resources */,
 				495C5D102515BC4800AEE577 /* Assets.xcassets in Resources */,
 				495C5D0B2515BC4500AEE577 /* Main.storyboard in Resources */,
+				49B72A1A251F2BE000A356D4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495C5D082515BC4500AEE577 /* ViewController.swift in Sources */,
+				495C5D082515BC4500AEE577 /* IntroVC.swift in Sources */,
+				49B43DBE251F56CA009B0F78 /* RoleOptionVC.swift in Sources */,
 				495C5D0E2515BC4500AEE577 /* Day_Care.xcdatamodeld in Sources */,
 				495C5D042515BC4500AEE577 /* AppDelegate.swift in Sources */,
+				49B43DBA251F4B08009B0F78 /* ExtensionFile.swift in Sources */,
+				49B43DB6251F41E0009B0F78 /* LoginWithEmailVC.swift in Sources */,
+				496F0C972515F2B600E3DAD9 /* User.swift in Sources */,
 				495C5D062515BC4500AEE577 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zmenterprises.Daycare.Day-Care";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmenterprises.DayCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -407,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zmenterprises.Daycare.Day-Care";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmenterprises.DayCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
